@@ -1,0 +1,46 @@
+{
+    "name": "shengamo/billing",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mo Malenga",
+            "email": "mo@shengamo.com",
+            "homepage": "http://ww.shengamo.com"
+        }
+    ],
+    "homepage": "https://github.com/shengamo/billing",
+    "keywords": [
+        "Laravel",
+        "Billing",
+        "Shengamo"
+    ],
+    "require": {
+        "illuminate/support": "~10|~9|~8",
+        "akaunting/laravel-money": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shengamo\\Billing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shengamo\\Billing\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shengamo\\Billing\\BillingServiceProvider"
+            ],
+            "aliases": {
+                "Billing": "Shengamo\\Billing\\Facades\\Billing"
+            }
+        }
+    }
+}
