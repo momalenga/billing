@@ -1,12 +1,12 @@
 {
     "name": "shengamo/billing",
-    "description": ":package_description",
+    "description": "Custom subscription with laravel.",
     "license": "MIT",
     "authors": [
         {
             "name": "Mo Malenga",
             "email": "mo@shengamo.com",
-            "homepage": "http://ww.shengamo.com"
+            "homepage": "https://www.shengamo.com"
         }
     ],
     "homepage": "https://github.com/shengamo/billing",
